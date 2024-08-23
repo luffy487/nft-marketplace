@@ -12,7 +12,7 @@ Welcome to the One Piece NFT Marketplace! This Next.js application showcases and
 
 ## Flow Diagram
 
-![Flow Diagram](./flow.png)
+![Flow Diagram](public/flow.png)
 
 This flow diagram illustrates the process of minting, listing, buying, and reselling NFTs in the marketplace.
 
