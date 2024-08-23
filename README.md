@@ -10,6 +10,12 @@ Welcome to the One Piece NFT Marketplace! This Next.js application showcases and
 - **Thirdweb SDK**: Simplifies interactions with the blockchain and IPFS.
 - **Smart Contract Interaction**: Interacts with an Ethereum smart contract for managing NFTs.
 
+## Flow Diagram
+
+![Flow Diagram](./flow.png)
+
+This flow diagram illustrates the process of minting, listing, buying, and reselling NFTs in the marketplace.
+
 ## Technologies Used
 
 - **Next.js**: Framework for building the React application.
@@ -31,7 +37,6 @@ Please refer to the contract repository for details on how the smart contract is
 ## IPFS
 
 NFT metadata and assets are stored on IPFS. Ensure you use the correct IPFS CID (Content Identifier) for accessing NFT data.
-
 
 ## Contact
 
