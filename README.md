@@ -23,7 +23,7 @@ Welcome to the One Piece NFT Marketplace! This Next.js application showcases and
 The marketplace interacts with an Ethereum smart contract for managing NFTs. The contract is located in a separate repository:
 
 - **Contract Repository**: [One Piece NFT Smart Contract](https://github.com/luffy487/nft-store)
-- **Contract Address**: [0x759F63cDC4d887bd273bFfFb84b21268995b1294](https://etherscan.io/address/0x759F63cDC4d887bd273bFfFb84b21268995b1294)
+- **Contract Address**: [0x759F63cDC4d887bd273bFfFb84b21268995b1294](https://sepolia.etherscan.io/address/0x759F63cDC4d887bd273bFfFb84b21268995b1294)
 - **Contract ABI**: Available in the contract repository.
 
 Please refer to the contract repository for details on how the smart contract is implemented and deployed.
