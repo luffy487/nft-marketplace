@@ -11,9 +11,6 @@ const MintNFT = () => {
   const [name, setName] = useState<string>("");
   const [description, setDescription] = useState<string>("");
   const [file, setFile] = useState<Buffer | null>(null);
-  useEffect(() => {
-    
-  } ,[walletAddress]);
 
   const handleFileInput = async (
     event: React.ChangeEvent<HTMLInputElement>
@@ -110,7 +107,7 @@ const MintNFT = () => {
         </div>
       ) : (
         <div className="text-red-500 font-semibold">
-          You don't have permission to mint NFTs
+          You do not have permission to mint NFTs
         </div>
       )}
     </div>
