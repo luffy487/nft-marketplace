@@ -7,7 +7,7 @@ const WalletButton: React.FC = () => {
   return (
     <div className="flex items-center space-x-2">
       {walletAddress ? (
-        <div className="bg-white text-red-700 px-4 py-2 rounded-md shadow-md flex items-center space-x-2">
+        <div className="bg-white text-red-700 px-4 py-2 rounded-full shadow-md flex items-center space-x-2">
           <img
             src="/crypto.png"
             alt="Ethereum Icon"
@@ -20,7 +20,7 @@ const WalletButton: React.FC = () => {
       ) : (
         <button
           onClick={connectWallet}
-          className="bg-white text-red-700 px-4 py-2 rounded-md shadow-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 transition duration-150 flex items-center space-x-2"
+          className="bg-white text-red-700 px-4 py-2 rounded-full shadow-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 transition duration-150 flex items-center space-x-2"
         >
           <span>Connect Wallet</span>
         </button>

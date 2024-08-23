@@ -13,6 +13,7 @@ const MyNFTsPage = () => {
   const fetchMyNFTs = async () => {
     try {
       if (walletAddress && contract) {
+        setNFTs([]);
         let [nfts, nftsForSale] = await Promise.all([
           contract.methods.fetchUserNFTs(walletAddress).call(),
           contract.methods.fetchNFTsForSale().call(),
