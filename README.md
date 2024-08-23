@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# One Piece NFT Marketplace
 
-## Getting Started
+Welcome to the One Piece NFT Marketplace! This Next.js application showcases and sells One Piece-themed NFTs. The NFTs are stored on IPFS, managed using the Thirdweb SDK, and the marketplace interacts with a smart contract deployed on the Ethereum blockchain.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **NFT Listing**: Browse and view One Piece-themed NFTs.
+- **Marketplace Integration**: Purchase NFTs directly from the marketplace.
+- **IPFS Storage**: Secure and decentralized storage for NFT metadata and assets.
+- **Thirdweb SDK**: Simplifies interactions with the blockchain and IPFS.
+- **Smart Contract Interaction**: Interacts with an Ethereum smart contract for managing NFTs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: Framework for building the React application.
+- **Thirdweb**: SDK for managing NFTs and interacting with IPFS.
+- **IPFS**: Decentralized storage solution for NFT metadata and assets.
+- **Ethereum**: Blockchain for managing the NFT smart contract.
+- **Solidity**: Language for writing the smart contract.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Smart Contract
 
-## Learn More
+The marketplace interacts with an Ethereum smart contract for managing NFTs. The contract is located in a separate repository:
 
-To learn more about Next.js, take a look at the following resources:
+- **Contract Repository**: [One Piece NFT Smart Contract](https://github.com/luffy487/nft-store)
+- **Contract Address**: [0x759F63cDC4d887bd273bFfFb84b21268995b1294](https://etherscan.io/address/0x759F63cDC4d887bd273bFfFb84b21268995b1294)
+- **Contract ABI**: Available in the contract repository.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Please refer to the contract repository for details on how the smart contract is implemented and deployed.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## IPFS
 
-## Deploy on Vercel
+NFT metadata and assets are stored on IPFS. Ensure you use the correct IPFS CID (Content Identifier) for accessing NFT data.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+
+For any questions or inquiries, please reach out to:
+
+- **Email**: vibhakar.vaddi@gmail.com
+- **GitHub**: [Your GitHub Profile](https://github.com/luffy487)
+
+Happy collecting!
